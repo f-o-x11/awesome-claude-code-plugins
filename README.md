@@ -158,6 +158,10 @@ Claude Code plugins are custom collections that can include:
 - **deploy-automation** - Deployment pipeline management
 - **docker-helper** - Container workflow automation
 - **k8s-deploy** - Kubernetes deployment assistance
+- **[deed-page](https://github.com/f-o-x11/deed-page-skill)** - Publish HTML or a static folder to a permanent https://<slug>.deed.page URL with one request, no account
+  - Features: skill plus the remote MCP server `https://deed.page/mcp` (no auth); free plan of 25 sites up to 25 MB each
+  - Install: `claude plugin marketplace add f-o-x11/deed-page-skill`, then `claude plugin install deed-page@deed-page`
+  - Author: deed.page (Avatar 8 LLC)
 
 ### Testing & Quality
 
